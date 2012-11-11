@@ -68,7 +68,7 @@ var getNextNote = function() {
 $.each(Object.keys(Base64EncodedNotes), function(i, key) {
     var $audio = $('<audio></audio>').attr('id', 'audio' + key);
     $audio.attr('src', Base64EncodedNotes[key]);
-    $('#audios').append($audio);
+    $('#audio-cache').append($audio);
 });
 
 

@@ -23,21 +23,23 @@
 
     <!-- Add your site or application content here -->
     <div id="content" class="">
-      <div class="float-right mar20" >
+      <div class="hide-notes" >
 	<label>Hide Note Name <input type="checkbox" name="" value="" id="hideNotation" /></label>
       </div>
+      <label class="center-text">Try to Play This Note:</label>
       <div class="canvasContainer">
 	<canvas id="target" width="125" height="120"></canvas>
       </div>
       <p id="note-display" ></p>
       <div id="keyboard" class="center">
 
-      </div>
-      <p id="current-note" class="fade-able"></p>
+      </div>	
+      <label class="fade-able center-text" >You are playing:</label>
       <div class="canvasContainer">
 	<canvas class="fade-able" id="current-note-canvas" width="125" height="120"></canvas>      
       </div>
-      <div id="audios" class="">
+      <p id="current-note" class="fade-able"></p>
+      <div id="audio-cache" class="">
 	
       </div>
     </div>

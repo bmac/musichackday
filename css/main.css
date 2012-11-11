@@ -313,10 +313,6 @@ textarea {
     margin: 0;
 }
 
-.float-right {
-    float: right;
-}
-
 .hide {
     display: none;
 }
@@ -332,6 +328,12 @@ textarea {
    -webkit-transition: opacity .5s ease-in-out;
 }
 
-.mar20 {
+.hide-notes {
     margin: 20px;
+    position: absolute;
+}
+
+.center-text {
+    text-align: center;
+    display: block;
 }
