@@ -1,6 +1,6 @@
 # HTML5 Piano with Notes
 
-## [Demo](www.google.com) 
+## [Demo](http://bmac.github.com/musichackday/) 
 
 This was a small project done in 24 hours for [Music Hack Day Boston](http://boston.musichackday.org/2012/index.php?page=Main+page).
 
