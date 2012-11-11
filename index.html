@@ -23,14 +23,23 @@
 
     <!-- Add your site or application content here -->
     <div id="content" class="">
-      <div id="globe">
-
+      <div class="float-right">
+	<label>Hide Note Name <input type="checkbox" name="" value="" id="hideNotation" /></label>
       </div>
-      <p id="note-display"></p>
+      <div class="canvasContainer">
+	<canvas id="target" width="125" height="120"></canvas>
+      </div>
+      <p id="note-display" ></p>
       <div id="keyboard" class="center">
 
       </div>
-      <p id="current-note"></p>
+      <p id="current-note" class="fade-able"></p>
+      <div class="canvasContainer">
+	<canvas class="fade-able" id="current-note-canvas" width="125" height="120"></canvas>      
+      </div>
+      <div id="audios" class="">
+	
+      </div>
     </div>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
@@ -38,6 +47,7 @@
       <script src="js/qwerty-handcock.js"></script>
       <script src="js/raphael-min.js"></script>
       <script src="js/chords.js"></script>
+      <script src="js/vexflow.js"></script>
       <script src="js/main.js"></script>
 
       <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

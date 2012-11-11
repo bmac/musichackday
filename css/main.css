@@ -302,8 +302,57 @@ textarea {
     width: 600px;
 }
 
+.canvasContainer {
+    width: 125px;
+    margin: 0 auto;
+}
+
 #note-display, #current-note {
     font-size: 5em;
     text-align: center;
     margin: 0;
 }
+
+.float-right {
+    float: right;
+}
+
+.hide {
+    display: none;
+}
+
+.fade-able {
+   opacity: 1;
+   transition: opacity .5s ease-in-out;
+   -moz-transition: opacity .5s ease-in-out;
+   -webkit-transition: opacity .5s ease-in-out;
+}
+
+.fade {
+    opacity: 0;
+   transition: opacity .5s ease-in-out;
+   -moz-transition: opacity .5s ease-in-out;
+   -webkit-transition: opacity .5s ease-in-out;
+}
+
+
+
+#canvasContainer {
+  margin: 10px auto;
+  z-index: 1;
+}
+#canvasContainer {
+  perspective: 1000;
+}
+#target {
+  transform-style: preserve-3d;
+  transition: all 1.0s linear;
+}
+#canvasContainer:hover  #target {
+  transform: rotateY(180deg);
+  box-shadow: -5px 5px 5px #aaa;
+}
+#target {
+  backface-visibility: hidden;
+}
+
